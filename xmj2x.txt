@@ -1,0 +1,9 @@
+import numpy as np
+column =["name" , "physics marks" , "chemistry marks" , "biology marks" ,"total"]
+stu1 = ["pradeepthi" , np.nan , 90 , 60 ,230]
+stu2 = ["supriya" , 80 , 90 , 60 ,230]
+stu3 = [np.nan , 80 , 90 , 60 ,np.nan]
+stu4 = ["shivani" , 80 , 90 , 60 ,230]
+stu5 = ["praadeepthi" , np.nan , 90 , 60 ,230]
+stu6 = ["ayushi" , 80 , 90 , 60 ,230]
+df1 = pd.DataFrame([stu1,stu2,stu3,stu4,stu5,stu6], columns= column, index =["a","b","c","d","e","f"])
